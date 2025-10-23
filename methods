@@ -1,0 +1,16 @@
+| Route               | Method   | Description                 |
+| ------------------- | -------- | --------------------------- |
+| `/`                 | GET      | Home page                   |
+| `/admin`            | GET/POST | Admin login                 |
+| `/admin/dashboard`  | GET      | Admin dashboard             |
+| `/register`         | GET/POST | User registration           |
+| `/login`            | GET/POST | User login                  |
+| `/logout`           | GET      | Logout                      |
+| `/main`             | GET      | Main/home after login       |
+| `/insert_user_info` | GET/POST | Insert profile info         |
+| `/search`           | POST     | Search user by phone number |
+| `/profiles`         | GET      | Display all profiles        |
+| `/users`            | GET      | List all users              |
+| `/forgot_password`  | GET/POST | Request password reset OTP  |
+| `/verify_reset_otp` | GET/POST | Verify OTP                  |
+| `/reset_password`   | GET/POST | Set new password            |
