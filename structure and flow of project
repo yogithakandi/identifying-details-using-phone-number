@@ -1,0 +1,20 @@
+project/
+│
+├── static/
+│   └── uploads/             # Uploaded profile pictures
+│
+├── templates/
+│   ├── index.html
+│   ├── register.html
+│   ├── login.html
+│   ├── forgot_password.html
+│   ├── reset_password.html
+│   ├── verify_reset_otp.html
+│   ├── admin.html
+│   ├── admin_dashboard.html
+│   ├── insert_user_info.html
+│   ├── profiles.html
+│   └── users.html
+│
+├── app.py                   # Main Flask application file
+└── README.md
